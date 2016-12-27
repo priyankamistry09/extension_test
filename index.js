@@ -1,11 +1,9 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('blteec8a61f272d535e')
-.setHost('localhost')
-.setProtocol('http')
-.setPort(8000)
-.setMasterKey('blte7d3652a2feabf38')
+var app = Built.App('blt917c46b3de8e419f')
+.setHost('dev-api.built.io')
+.setMasterKey('blte09616313f4eaf7a')
 
 var extensionSDK = app.Extension({
 	secret_key     : 'blt123blt123',
