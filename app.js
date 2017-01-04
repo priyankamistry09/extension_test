@@ -1,10 +1,10 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('blt917c46b3de8e419f')
-.setHost('dev-api.built.io')
+var app = Built.App('blteec8a61f272d535e')
+.setHost('17988c9f.ngrok.io')
 .setProtocol("https")
-.setMasterKey('blte09616313f4eaf7a')
+.setMasterKey('blte7d3652a2feabf38')
 
 var extensionSDK = app.Extension({
 	secret_key     : 'blt123blt123',
