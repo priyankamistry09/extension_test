@@ -4,7 +4,7 @@ var Built = require('built-extension-sdk')
 var app = Built.App('blteec8a61f272d535e')
 // .setHost('localhost')
 // .setPort(8000)
-.setHost("http://8d673f6d.ngrok.io")
+.setHost("8d673f6d.ngrok.io")
 .setProtocol("http")
 .setMasterKey('blte7d3652a2feabf38')
 
