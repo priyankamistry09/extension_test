@@ -2,8 +2,10 @@ var Built = require('built-extension-sdk')
 
 // Initiate application
 var app = Built.App('blteec8a61f272d535e')
-.setHost('17988c9f.ngrok.io')
-.setProtocol("https")
+// .setHost('localhost')
+// .setPort(8000)
+.setHost("http://8d673f6d.ngrok.io")
+.setProtocol("http")
 .setMasterKey('blte7d3652a2feabf38')
 
 var extensionSDK = app.Extension({
