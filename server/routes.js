@@ -53,7 +53,7 @@ module.exports = {
 				name: "is not a string"
 			}
 		}
-	}/*,
+	},
 	"/v1/classes/person/objects": {
 		POST: {
 			_pre: function(req, res) {
@@ -68,7 +68,7 @@ module.exports = {
 				return when.resolve()
 			}
 		}
-	},
+	}/*,
 	"/v1/classes/person/objects/:objectUid": {
 		PUT:{
 			_pre: function(req, res){
