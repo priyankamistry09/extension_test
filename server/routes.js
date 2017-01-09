@@ -10,12 +10,16 @@ module.exports = {
 	},
 	"/v1/functions/createPerson": {
 		POST: function(req, res){
-			req.logger.log(req.payload)
+			req.logger.log("request payload", req.payload)
+			req.logger.log("App options", req.builtApp.options)
 			var that = this
 			req.builtApp.Class('person').Object(req.payload.data)
 			.save()
 			.then(function(person){
 				return that.resSuccess(req, res, person)
+			})
+			.catch(function(err){
+				console.log(err, "=========")
 			})
 		}
 	},
