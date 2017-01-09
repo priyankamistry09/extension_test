@@ -10,6 +10,7 @@ module.exports = {
 	},
 	"/v1/functions/createPerson": {
 		POST: function(req, res){
+			req.logger.log(req.payload)
 			var that = this
 			req.builtApp.Class('person').Object(req.payload.data)
 			.save()
