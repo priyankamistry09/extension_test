@@ -2,9 +2,14 @@ var when = require('when')
 
 module.exports = {
 	"/v1/functions/abhijeet": {
-		"GET": function(req, res){
+		GET: function(req, res){
 			this.resSuccess(req, res, {
-				working: "yes"
+				working: "GET call"
+			})
+		},
+		POST: function(req, res){
+			this.resSuccess(req, res, {
+				working: "Post call"
 			})
 		}
 	},
