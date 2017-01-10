@@ -11,6 +11,11 @@ module.exports = {
 			this.resSuccess(req, res, {
 				working: "Post call"
 			})
+		},
+		PUT: function(req, res){
+			this.resSuccess(req, res, {
+				working: "PUT call"
+			})
 		}
 	},
 	"/v1/functions/createPerson": {
