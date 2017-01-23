@@ -5,7 +5,7 @@ var app = Built.App('blt917c46b3de8e419f')
 // .setHost('localhost')
 // .setPort(8000)
 .setHost("dev-api.built.io")
-// .setProtocol("http")
+.setProtocol("https")
 // .setPort(80)
 .setMasterKey('blte09616313f4eaf7a')
 
