@@ -1,6 +1,13 @@
 var when = require('when')
 
 module.exports = {
+	"/v1/functions/smita": {
+		GET: function(req, res){
+			this.resSuccess(req, res, {
+				smita: "is aunty :D"
+			})
+		}
+	},
 	"/v1/functions/altamash": {
 		GET: function(req, res){
 			this.resSuccess(req, res, {
