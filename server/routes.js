@@ -4,7 +4,7 @@ module.exports = {
 	"/v1/functions/smita": {
 		GET: function(req, res){
 			this.resSuccess(req, res, {
-				smita: "is awesomeeeee111 :D"
+				smita: "is new update :D"
 			})
 		}
 	},
