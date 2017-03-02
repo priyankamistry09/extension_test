@@ -1,6 +1,13 @@
 var when = require('when')
 
 module.exports = {
+	"/v1/functions/swapnil": {
+		GET: function(req, res){
+			this.resSuccess(req, res, {
+				swapnil: "is awesome"
+			})
+		}
+	},
 	"/v1/functions/chinu": {
 		GET: function(req, res){
 			this.resSuccess(req, res, {
