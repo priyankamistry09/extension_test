@@ -7,7 +7,7 @@ var app = Built.App('blt59e11ffebf12e235')
 .setHost("dev-api.built.io")
 .setProtocol("https")
 // .setPort(80)
-.setMasterKey('blte09616313f4eaf7a')
+.setMasterKey('blt15bc6f337fbe88bc')
 
 var extensionSDK = app.Extension({
 	secret_key     : 'blt917c46b3de8e419f',
