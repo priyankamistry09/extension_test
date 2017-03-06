@@ -1,7 +1,7 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('blt917c46b3de8e419f')
+var app = Built.App('blt59e11ffebf12e235')
 // .setHost('localhost')
 // .setPort(8000)
 .setHost("dev-api.built.io")
