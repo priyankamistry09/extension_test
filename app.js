@@ -10,7 +10,7 @@ var app = Built.App('blteec8a61f272d535e')
 .setMasterKey('blte09616313f4eaf7a')
 
 var extensionSDK = app.Extension({
-	secret_key     : 'bltc72eecc6220abbd2',
+	secret_key     : 'blt99a3ce2b015fb16c',
 	extension_key	 : 'blt_ext_default',
 	static         : __dirname + '/client',
 	routes         : require('./server/routes')
