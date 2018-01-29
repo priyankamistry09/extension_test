@@ -1,21 +1,19 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('blteec8a61f272d535e')
+var app = Built.App('bltd470ad1e7ce19b96')
 // .setHost('localhost')
 // .setPort(8000)
-.setHost("f6b7a2b3.ngrok.io")
+.setHost("test-stag-api.built.io")
 .setProtocol("https")
 // .setPort(80)
-.setMasterKey('blte09616313f4eaf7a')
+.setMasterKey('bltd6b6eedeff10f9b0')
 
 var extensionSDK = app.Extension({
-	secret_key     : 'blt99a3ce2b015fb16c',
+	secret_key     : 'altamash',
 	extension_key	 : 'blt_ext_default',
 	static         : __dirname + '/client',
 	routes         : require('./server/routes')
 })
 
 return extensionSDK.start(9000)
-
-
