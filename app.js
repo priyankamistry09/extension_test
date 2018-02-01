@@ -1,4 +1,4 @@
-var Built = require('built-extension-sdk')
+var Built = require('built-extension-sdk1')
 
 // Initiate application
 var app = Built.App('bltd470ad1e7ce19b96')
